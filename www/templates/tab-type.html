@@ -1,0 +1,29 @@
+<ion-view view-title="Cafes in Tallhassee">
+
+    <ion-content>
+      <!-- <div class="bar bar-header bar-assertive">
+      <h2 class="title">Cafes in Tallahassee</h2>
+    </div> -->
+      <ion-list>
+        <!-- redirects page to place-detail page -->
+        <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="place in places track by $index" type="item-text-wrap" href="#/tab/dash/selected">
+          <!-- data comes from object -->
+
+          <div ng-controller="PlacesCtrl" class="list">
+
+            <select ng-model="selected" ng-change="change()">
+              <option value="none" selected="selected">Choose the type</option>
+              <option value='aquarium'>Aquarium</option>
+              <option value='bank'>Bank</option>
+              <option value='cafe'>Cafe</option>
+              <option value='clothing_store'>Clothing Store</option>
+              <option value='hindu_temple'>Hindu Temple</option>
+              <option value='university'>University</option>
+            </select>
+
+          </div>
+
+        </ion-item>
+      </ion-list>
+    </ion-content>
+</ion-view>

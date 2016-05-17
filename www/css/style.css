@@ -1,0 +1,187 @@
+ion-content.padding.scroll-content.ionic-scroll.has-header.has-tabs{
+  background-color: #2C2C2C;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ion-content.padding.scroll-content.ionic-scroll.overflow-scroll.has-header.has-tabs-top{
+  background-color: #2C2C2C;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+ion-nav-view.view-container{
+  background-color: #191921 !important;
+}
+h1.page2{
+  font-family: avenir;
+  color: white;
+  font-weight: 200;
+  margin-left: 1.2em;
+}
+
+h3.page2{
+  font-family: avenir;
+  color: white;
+  font-weight: 900;
+}
+p.page2{
+  font-family: helvetica;
+  color: white;
+  font-weight: 900;
+}
+
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated {
+    color: #4A5882;
+}
+ion-tabs.tabs-striped.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-striped.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-striped.tabs-color-active-positive .tab-item.activated {
+    border-color: #4A5882;
+    color: #4A5882;
+  }
+
+.button-clear.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: ##F8F8F8;
+}
+.item-complex .item-content, .item-radio .item-content {
+    position: relative;
+    z-index: 2;
+    padding: 16px 49px 16px 16px;
+    border: none;
+    background-color: rgba(139, 0, 0, 0);
+    overflow: inherit;
+  }
+
+div.title.title-center.header.item {
+  background-color: #333;
+  text-transform: uppercase;
+}
+
+
+div.place_name{
+  color: white;
+  background-image: url("../img/Tallahasseeskyline.png");
+  height: 26vh;
+  padding-top: 9em;
+  width: 111%;
+  margin-left: -1em;
+  margin-top: 0em;
+  background-repeat: round;
+  text-transform: uppercase;
+}
+div.price_level{
+  /*background-color: #D7B659 ;*/
+  color: white;
+  /*text-align: center;*/
+  font-size: 18px !important;
+  padding-bottom: 4em;
+  width: 15em;
+  text-transform: uppercase;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;*/
+}
+div.place_rating{
+  /*background-color: #E16D53 ;*/
+  color: white;
+  /*text-align: center;*/
+  width: 15em;
+  font-size: 18px !important;
+  text-transform: uppercase;
+  padding-bottom: 4em;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;*/
+}
+div.place_open{
+  /*background-color: #4678A4;*/
+  color: white;
+  /*text-align: center;*/
+  font-size: 18px !important;
+  text-transform: uppercase;
+  padding-bottom: 3em;
+  width: 15em;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;*/
+}
+h6.page2{
+  font-size: 1em;
+  color: white;
+  text-transform: uppercase;
+  font-family: avenir;
+  font-weight: 200;
+  margin-left: 3em;
+  margin-bottom: 3.1em;
+  margin-top: 2em;
+  position: fixed;
+  margin-left: .5em;
+  z-index: 2131;
+}
+h6.address{
+  font-size: 1em;
+  color: white;
+  text-transform: uppercase;
+  font-family: avenir;
+  font-weight: 200;
+  margin-left: 3em;
+  margin-bottom: 3.1em;
+  margin-top: -1em;
+  position: fixed;
+  margin-left: 2.5em;
+  z-index: 2131;
+}
+div.scroll{
+  width: 107%;
+  margin-left: -1em;
+  margin-top: -1em;
+}
+.hLine1{
+    border-left: thick solid #B89573;
+    margin-left: 1.3em;
+    z-index: 2;
+    height: 19.3em;
+    position: fixed;
+
+}
+
+.hLine3{
+    border-left: thick solid #B89573;
+    margin-left: 1.3em;
+    z-index: 2;
+    padding-top: 1em;
+    margin-top: -1em;
+    height: 9em;
+    position: fixed;
+
+}
+.hLine4{
+    border-left: thick solid #B89573;
+    margin-left: 1.3em;
+    z-index: 2;
+    height: 5em;
+    position: fixed;
+
+}
+h2.ng-binding{
+  padding-left: 2em;
+  padding-top: 0.7em;
+  font-size: larger;
+}
+/*.toggle{
+  position: inherit;
+  display: inline-block;
+  pointer-events: auto;
+  margin: -5px;
+  padding: 5px;
+  top: 1.69em;
+  left: 3em;
+}*/
+.toggleMargin{
+  margin-top: 1em;
+  margin-left: 1em;
+}
+.item-select{
+  height: 4em;
+  margin-bottom: -4em;
+}
+select{
+  padding-left: 13em;
+  padding-top: 4em;
+}

@@ -1,0 +1,26 @@
+<ion-view view-title="Cafes in Tallhassee">
+    <ion-content>
+
+      <ion-list>
+        <div class="list">
+
+          <select ng-model="dropdown.selected" ng-change="change()">            <option value="none" selected="selected">Choose the type</option>
+            <option value='aquarium'>Aquarium</option>
+            <option value='bank'>Bank</option>
+            <option value='cafe'>Cafe</option>
+            <option value='clothing_store'>Clothing Store</option>
+            <option value='hindu_temple'>Hindu Temple</option>
+            <option value='university'>University</option>
+          </select>
+
+        </div>
+        <br><br>
+        <!-- redirects page to place-detail page -->
+        <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="place in places" ="item-text-wrap" href="#/tab/dash/{{place.place_id}}">
+          <!-- data comes from object -->
+          <h2>{{place.name}}</h2>
+        </ion-item>
+
+      </ion-list>
+    </ion-content>
+</ion-view>

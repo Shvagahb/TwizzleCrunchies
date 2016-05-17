@@ -1,0 +1,38 @@
+{
+  "name": "q-promise",
+  "version": "0.2.6",
+  "description": "promise polyfill with add-ons",
+  "main": "dist/promise.min.js",
+  "authors": [
+    "Jesús Germade <jesus@germade.es>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "promise",
+    "polyfill",
+    "add-ons",
+    "when"
+  ],
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "homepage": "https://github.com/jstools/promise-q",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "lib"
+  ],
+  "_release": "0.2.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.6",
+    "commit": "3ffb33ed2933a13ce864d9061d5e763109bf4ab5"
+  },
+  "_source": "https://github.com/jstools/promise-q.git",
+  "_target": "^0.2.6",
+  "_originalSource": "promise-q"
+}
