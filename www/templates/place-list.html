@@ -1,17 +1,26 @@
-<ion-view view-title="Cafes in Tallhassee">
+<ion-view view-title="Places in Tallhassee">
     <ion-content>
 
       <ion-list>
+
+
+
+
+
+
+
         <div class="list">
 
           <select ng-model="dropdown.selected" ng-change="change()">
             <option value="none" selected="selected">Choose the type</option>
-            <option value='aquarium'>Aquarium</option>
+            <option ng-repeat="type in types" value="{{type.type}}">{{type.pretty}}</option>
+
+            <!-- <option value='aquarium'>Aquarium</option>
             <option value='bank'>Bank</option>
             <option value='cafe'>Cafe</option>
             <option value='clothing_store'>Clothing Store</option>
             <option value='hindu_temple'>Hindu Temple</option>
-            <option value='university'>University</option>
+            <option value='university'>University</option> -->
           </select>
 
         </div>
